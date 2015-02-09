@@ -1,0 +1,30 @@
+[% WRAPPER 'layout.html'
+            page_title="Tinker"
+%]
+[% INCLUDE 'nav-top.html' %]
+
+<div class="container-fluid">
+  <div class="row">
+
+[% INCLUDE 'pane-input.html'
+            placeholder="Enter Pegex Grammar Here",
+            classes="pegex input",
+            pane_title="Pegex Input"
+%]
+[% INCLUDE 'pane-input.html'
+            placeholder="Enter YAML Input Here",
+            classes="yaml input",
+            pane_title="YAML Input"
+%]
+[% INCLUDE 'pane-output.html'
+            placeholder="Press the "Tinker!" Button…",
+            classes="tinker output",
+            pane_title="Tinker Output"
+%]
+
+  </div>
+</div>
+
+[% INCLUDE 'javascript.html' %]
+
+[% END %]

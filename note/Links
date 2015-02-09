@@ -1,0 +1,93 @@
+== jsFiddle is the thing everyone knows and copies:
+  - http://jsfiddle.net/
+  - 4 pane HTML/CSS/JS/Output editor
+  - google: jsfiddle clone open source
+  - http://doc.jsfiddle.net/
+  - https://github.com/jsfiddle
+    - Some open things
+
+== Nice/Open
+- JS Bin
+  - http://jsbin.com/
+  - https://github.com/jsbin/jsbin
+- FiddleSalad
+  - http://fiddlesalad.com/
+  - https://github.com/yuguang/fiddlesalad/fork
+
+== Nice/Closed
+- CodingGround
+  - http://www.tutorialspoint.com/codingground.htm
+- Code Pen
+  - http://codepen.io/
+  - Really nice
+- CSS Disk
+  - http://www.cssdesk.com/
+  - Nice UI.
+- kodtest
+  - http://kodtest.com/
+  - Simple. Looks like fiddle. 4 pane.
+- Liveweave
+  - http://liveweave.com/
+
+== Maybe
+- https://github.com/nwoike/Diddle
+- https://github.com/mmarcon/jhere
+- https://github.com/chielkunkels/tinker (tinker.io)
+  - https://github.com/tinker
+- https://github.com/mozilla/togetherjs
+  - For collab
+- Cloud 9
+  - c9.io
+  - https://github.com/ajaxorg/cloud9/
+- Mozilla Thimble
+  - https://thimble.webmaker.org/
+  - https://github.com/mozilla/thimble.webmaker.org
+
+== Simple
+★ http://montagejs.github.io/mfiddle/
+★ http://jessevdk.github.io/webgl-play/
+- http://phrogz.net/JS/d3-playground/#BlankDefault
+- http://rocktronica.github.io/tmpltr/
+  - https://github.com/rocktronica/tmpltr
+
+== OK
+- Plunker
+  - http://plnkr.co/
+  - https://github.com/filearts/plunker_www
+  - Only 2 pane afaict
+- http://rendera.herokuapp.com/
+
+== Bad
+- codepad.org
+- http://dabblet.com/
+
+== Reviews
+- http://alternativeto.net/software/jsfiddle/
+- http://codecondo.com/16-online-javascript-editors-for-web-developers/
+- http://techslides.com/30-code-playgrounds-and-sharing-tools
+
+== Editors
+- Ace Editor
+  - http://ajaxorg.github.com/ace/build/editor.html
+- CodeMirror
+  - https://github.com/codemirror/codemirror
+- https://atom.io/
+  - https://github.com/atom/atom
+
+== Tools
+- Ace - https://github.com/ajaxorg/ace
+- jQuery - http://jquery.com/
+- Modernizr - http://www.modernizr.com/
+- PrefixFree - http://leaverou.github.com/prefixfree/
+
+== Tinker Design
+- Layout selector like codpen
+- Autorun as an option
+- Multiple panes
+  - Input and output
+- Makefile-esque update
+- Show errors in red output
+- Docker to run code
+- Terminal/shell view
+- Key bindings
+  - Ctrl keys to switch panes
