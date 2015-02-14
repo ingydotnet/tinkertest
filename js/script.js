@@ -7,12 +7,12 @@
   };
 
   $.ready = function() {
-    return $('button.tinker').click(function() {
-      var pegex_input, tinker_output, tinker_url, yaml_input;
+    return $('button.tinkertest').click(function() {
+      var pegex_input, tinker_url, tinkertest_output, yaml_input;
       pegex_input = $('.pegex').val();
       yaml_input = $('.yaml').val();
       tinker_url = '/tinker?yaml=' + escape(yaml_input);
-      return tinker_output = $.get(tinker_url, function(data) {
+      return tinkertest_output = $.get(tinker_url, function(data) {
         return $('pre.output').html(_.escape(data));
       });
     });

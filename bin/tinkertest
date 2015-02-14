@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use lib 'lib';
 use Dancer;
-use Tinker;
+use TinkerTest;
 dance;

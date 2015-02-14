@@ -8,4 +8,4 @@ js:
 	coffee --compile --output js lib/*.coffee
 
 start:
-	sudo plackup -s Starman -p 5001 -E deployment --workers=10 -a bin/tinker.pl
+	sudo plackup -s Starman -p 5001 -E deployment --workers=10 -a bin/tinkertest
