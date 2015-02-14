@@ -6,6 +6,6 @@ $.ready = ->
     pegex_input = $('.pegex').val()
     yaml_input = $('.yaml').val()
     tinker_url =
-      'http://localhost:3000/tinker?yaml=' + escape yaml_input
+      '/tinker?yaml=' + escape yaml_input
     tinker_output = $.get tinker_url, (data)->
       $('pre.output').html _.escape data
